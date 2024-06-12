@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Merriweather", serif;
+}
+nav{
+   
+    display: flex;
+    
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: darkslategray;
+
+}
+ul{
+    display: flex; 
+     
+}
+ul a{
+    text-decoration: none;
+    margin: 14px;
+    font-size: larger;
+    color: white;
+    
+}
+nav ul li a:hover{
+    text-shadow: 1px 3px 5px black;
+}
+.elon{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.hi{
+    color: rgb(229, 229, 239);
+    position: absolute;
+    bottom: 800px;
+    padding-left: 100px;
+    font-size: 40px;
+    
+    
+    
+}
+.elon img{
+    width: 100%;
+}
+.intro p{
+    text-align: center;
+}
+h3{
+    background-color: darkslategrey;
+    text-align: center;
+    color: white;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    height: 300px;
+}
+h2{
+    text-align: center;
+}
+.intro{
+    text-align: justify;
+}
+.gallery{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    
+    
+    
+}
+
+.gallery img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    cursor: pointer;
+
+
+    
+}
+.gallery img:hover{
+
+    scale: 1.05;
+    box-shadow: 2px 4px 6px black;
+    border-radius: 5px;
+}
+.gallery2 img:hover{
+
+    scale: 1.05;
+    box-shadow: 2px 4px 6px black;
+    border-radius: 5px;
+}
+.gallery2{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    
+}
+.gallery2 img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    cursor: pointer;
+    
+}
+    
+h4{
+    background-color: darkslategrey;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.form{
+    background-image: url('https://th.bing.com/th/id/OIP.BjZGam1nlwf-XMcczw2-GAAAAA?rs=1&pid=ImgDetMain');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+input{
+    width: 100%;
+    margin: 10px;
+}
+textarea{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    width: 100%;
+    
+   transition: 0.3s;
+    font-size: larger;
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+.container {
+    position: relative;
+    width: 90%;
+
+    
+  }
+  .other{
+    display: flex;
+    justify-content: center;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+.container img {
+    display: block;
+    width: 90%;
+    height: 300px;
+    cursor: pointer;
+    
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+.container:hover .overlay{
+    opacity: 1;
+}
+.text{
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* footer{
+    background-color:darkslategrey;
+    width: 100%;
+    height: 250px;
+    color: white;
+} */
+
+
+
+
+
+
+
+/* scroll bar */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(57, 57, 62); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #211f37; 
+  }
